@@ -1,8 +1,14 @@
-import React from 'react'
+import Navbar from '../Components/Header/Navbar'
+import Router from '../Router/Router'
+import Footer from '../Components/Footer/Footer'
 
 const Layout = () => {
   return (
-    <div>Layout</div>
+    <>
+        <Navbar/>
+        <Router/>
+        {/* <Footer/> */}
+    </>
   )
 }
 
